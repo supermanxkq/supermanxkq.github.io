@@ -6,9 +6,46 @@
 </description>
     <link>http://supermanxkq.github.io/</link>
     <atom:link href="http://supermanxkq.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 23:56:23 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 23:56:23 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Jul 2017 00:37:16 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 00:37:16 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>关于破解wifi密码的傻瓜做法</title>
+        <description>&lt;h1 id=&quot;wifi&quot;&gt;关于破解wifi密码的傻瓜做法&lt;/h1&gt;
+
+&lt;p&gt;工具：&lt;strong&gt;wifi万能钥匙App&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;打开app点击一键查询万能钥匙，显示可以破解的wifi&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/wifi.jpg&quot; alt=&quot;打开app&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在wifi列表栏点击分享&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/share.jpeg&quot; alt=&quot;分享&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;截取二维码图片&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;用微信扫描二维码获取wifi密码&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Mon, 10 Jul 2017 08:29:20 +0800</pubDate>
+        <link>http://supermanxkq.github.io/jekyll/update/2017/07/10/%E5%85%B3%E4%BA%8E%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81%E7%9A%84%E5%82%BB%E7%93%9C%E5%81%9A%E6%B3%95.html</link>
+        <guid isPermaLink="true">http://supermanxkq.github.io/jekyll/update/2017/07/10/%E5%85%B3%E4%BA%8E%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81%E7%9A%84%E5%82%BB%E7%93%9C%E5%81%9A%E6%B3%95.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>markdown的语法整理</title>
@@ -132,7 +169,7 @@
   &lt;li&gt;
     &lt;p&gt;emoji&lt;/p&gt;
 
-    &lt;p&gt;​:smile: &lt;code&gt;:smail:&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;​:smile:​ &lt;code&gt;:smail:&lt;/code&gt;&lt;/p&gt;
 
     &lt;p&gt;:joy:	&lt;code&gt;:joy:&lt;/code&gt;&lt;/p&gt;
 
