@@ -6,8 +6,8 @@
 </description>
     <link>http://supermanxkq.github.io/</link>
     <atom:link href="http://supermanxkq.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 22:08:46 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 22:08:46 +0800</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 23:56:23 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 23:56:23 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -16,57 +16,63 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;标题-通过&lt;code&gt;#&lt;/code&gt;来设置标题有几个#就是几级标题1-6级&lt;/p&gt;
+    &lt;p&gt;标题1-6级&lt;/p&gt;
 
     &lt;h5 id=&quot;section&quot;&gt;五级标题&lt;code&gt;#####五级标题&lt;/code&gt;&lt;/h5&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;块注释-通过&lt;code&gt;&amp;gt;&lt;/code&gt;来设置块注释&lt;/p&gt;
+    &lt;p&gt;块注释&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;块注释 &lt;code&gt;&amp;gt;块注释&lt;/code&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;斜体-使用&lt;code&gt;*斜体*&lt;/code&gt;或&lt;code&gt;_斜体_&lt;/code&gt;夹起来&lt;/p&gt;
+    &lt;p&gt;斜体&lt;/p&gt;
 
-    &lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;code&gt;*斜体*&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;code&gt;*斜体*或_斜体_&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;粗体-使用&lt;code&gt;**粗体**&lt;/code&gt;或&lt;code&gt;__粗体__&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;粗体&lt;/p&gt;
 
-    &lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;code&gt;**粗体**&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;code&gt;**粗体**或__粗体__&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;无序列表–使用&lt;code&gt;* + -&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;无序列表1&lt;code&gt;* 无序列表1&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;无序列表2&lt;code&gt;+ 无序列表2&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;有序列表-&lt;code&gt;使用数字后面跟上句号。（还要有空格）&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;下划线&lt;/p&gt;
 
-    &lt;p&gt;这是第一个 &lt;code&gt;1. 这是第一个&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;这是第二个&lt;code&gt;2. 这是第二个&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;u&gt;下划线&lt;/u&gt;&lt;code&gt;&amp;lt;u&amp;gt;下划线&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;链接-&lt;code&gt;[超链接文字]（url）&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;无序列表&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;无序列表1&lt;code&gt;* 无序列表1&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;无序列表2&lt;code&gt;- 无序列表2&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;无序列表3&lt;code&gt;+无序列表3&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;有序列表&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;这是第一个 &lt;code&gt;1. 这是第一个&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;这是第二个&lt;code&gt;2. 这是第二个&lt;/code&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;超链接&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://www.baidu.com/&quot;&gt;百度&lt;/a&gt;&lt;code&gt;[百度](https://www.baidu.com)&lt;/code&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt;&lt;code&gt;[github](https://github.com)&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;图片&lt;code&gt;![图片名称](图片地址)&lt;/code&gt; &lt;code&gt;![百度一下](https://www.baidu.com/img/bd_logo1.png)&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;图片&lt;code&gt;![百度一下](https://www.baidu.com/img/bd_logo1.png)&lt;/code&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;img src=&quot;https://www.baidu.com/img/bd_logo1.png&quot; alt=&quot;百度一下&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;删除线&lt;code&gt;~~删除~~&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;删除线&lt;/p&gt;
 
     &lt;p&gt;~~删除~~  &lt;code&gt;~~删除~~&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
@@ -101,39 +107,47 @@
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;表格居中&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: left&quot;&gt;左对齐&lt;/th&gt;
+          &lt;th&gt;居中&lt;/th&gt;
+          &lt;th&gt;右对齐&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;:——————–&lt;/td&gt;
+          &lt;td&gt;:—————————:&lt;/td&gt;
+          &lt;td&gt;——————————:&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;emoji&lt;/p&gt;
+
+    &lt;p&gt;​:smile: &lt;code&gt;:smail:&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;:joy:	&lt;code&gt;:joy:&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;​:+1: &lt;code&gt;:+1:&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;more emoji—&amp;gt;&lt;a href=&quot;https://github.com/guodongxiaren/README/blob/master/emoji.md&quot;&gt;emoji&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
+
 </description>
         <pubDate>Mon, 10 Jul 2017 00:23:47 +0800</pubDate>
         <link>http://supermanxkq.github.io/jekyll/update/2017/07/10/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%B4%E7%90%86.html</link>
         <guid isPermaLink="true">http://supermanxkq.github.io/jekyll/update/2017/07/10/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%B4%E7%90%86.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 09 Jul 2017 22:37:22 +0800</pubDate>
-        <link>http://supermanxkq.github.io/jekyll/update/2017/07/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://supermanxkq.github.io/jekyll/update/2017/07/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -167,8 +181,8 @@
 
 </description>
         <pubDate>Sun, 09 Jul 2017 22:37:22 +0800</pubDate>
-        <link>http://supermanxkq.github.io/jekyll/update/2017/07/09/how-to-use-jekyll.html</link>
-        <guid isPermaLink="true">http://supermanxkq.github.io/jekyll/update/2017/07/09/how-to-use-jekyll.html</guid>
+        <link>http://supermanxkq.github.io/jekyll/update/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll.html</link>
+        <guid isPermaLink="true">http://supermanxkq.github.io/jekyll/update/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll.html</guid>
         
         
         <category>jekyll</category>
