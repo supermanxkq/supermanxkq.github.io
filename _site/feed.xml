@@ -6,8 +6,8 @@
 </description>
     <link>http://supermanxkq.github.io/</link>
     <atom:link href="http://supermanxkq.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 22:00:42 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 22:00:42 +0800</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 22:08:46 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 22:08:46 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -78,39 +78,30 @@
     &lt;p&gt;&lt;code&gt;---&lt;/code&gt;&lt;/p&gt;
 
     &lt;hr /&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;表格&lt;/p&gt;
+    &lt;p&gt;表格&lt;code&gt;|标题|姓名|&lt;/code&gt;&lt;/p&gt;
 
     &lt;table&gt;
       &lt;thead&gt;
         &lt;tr&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;编号&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;姓名&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;年龄&lt;/th&gt;
+          &lt;th&gt;标题&lt;/th&gt;
+          &lt;th&gt;姓名&lt;/th&gt;
         &lt;/tr&gt;
       &lt;/thead&gt;
       &lt;tbody&gt;
         &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;1112321321&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;张三&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;23&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;1232312312&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;李四&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;23&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;2323233232&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;王五&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;25&lt;/td&gt;
+          &lt;td&gt;张三&lt;/td&gt;
+          &lt;td&gt;李四&lt;/td&gt;
         &lt;/tr&gt;
       &lt;/tbody&gt;
     &lt;/table&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
 </description>
         <pubDate>Mon, 10 Jul 2017 00:23:47 +0800</pubDate>
         <link>http://supermanxkq.github.io/jekyll/update/2017/07/10/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%B4%E7%90%86.html</link>
