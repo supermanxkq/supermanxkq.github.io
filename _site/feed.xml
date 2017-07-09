@@ -6,8 +6,8 @@
 </description>
     <link>http://supermanxkq.github.io/</link>
     <atom:link href="http://supermanxkq.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 16:10:31 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 16:10:31 +0800</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 16:22:54 +0800</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 16:22:54 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -70,6 +70,29 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Markdown语法的整理</title>
+        <description>&lt;h1 id=&quot;markdown&quot;&gt;markdown的语法整理&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;标题 &lt;code&gt;#标题名称&lt;/code&gt;表示一级标题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;java
+public class Test{
+  public static void main(String [] args){
+    System.out.println(&#39;hello,world!&#39;);
+  }
+}
+&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Jul 2017 00:00:00 +0800</pubDate>
+        <link>http://supermanxkq.github.io/2017/07/09/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%B4%E7%90%86.html</link>
+        <guid isPermaLink="true">http://supermanxkq.github.io/2017/07/09/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E6%95%B4%E7%90%86.html</guid>
+        
         
       </item>
     
