@@ -5,8 +5,8 @@
     <description>理想永远都年轻,你让我倔强的反抗着命运……</description>
     <link>http://127.0.0.1/</link>
     <atom:link href="http://127.0.0.1/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Jul 2017 14:31:30 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Jul 2017 14:31:30 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Jul 2017 14:48:59 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2017 14:48:59 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -77,7 +77,7 @@
 桃花春色暖先开，明媚谁人不看来。可惜狂风吹落后，殷红片片点莓苔。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/flower.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/flower.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -87,9 +87,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://supermanxkq.github.io/img/cat.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/cat.jpeg&quot; class=&quot;img-thumbnail center-block&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -99,7 +97,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/people.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/people.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -109,7 +107,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/bird.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/bird.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;blockquote&gt;
@@ -119,7 +117,7 @@
 &lt;/blockquote&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;https://supermanxkq.github.io/img/night.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;
+&lt;img src=&quot;https://supermanxkq.github.io/img/night.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -129,7 +127,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/girl.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/girl.jpeg&quot; class=&quot;img-thumbnail center-block&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;blockquote&gt;
@@ -138,7 +136,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/fish.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/fish.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;blockquote&gt;
@@ -147,7 +145,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/hehua.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/hehua.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
