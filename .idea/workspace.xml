@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md" afterPath="$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,17 +35,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-14-我在二环路的里边,想着你.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-07-14-我在二环路的里边,想着你.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="84" column="92" selection-start-line="84" selection-start-column="92" selection-end-line="84" selection-end-column="92" />
+            <state relative-caret-position="232">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code.jpeg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code.jpeg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/code.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -335,12 +333,12 @@
       <workItem from="1499586971125" duration="11833000" />
       <workItem from="1499668684816" duration="1243000" />
       <workItem from="1499688811160" duration="10193000" />
-      <workItem from="1499921189678" duration="18510000" />
+      <workItem from="1499921189678" duration="18801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41779000" />
+    <option name="totallyTimeSpent" value="42070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -717,17 +715,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="84" column="92" selection-start-line="84" selection-start-column="92" selection-end-line="84" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/code.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
