@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG390.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG391.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG392.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG394.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG395.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG396.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/WechatIMG397.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-14-承接各种手绘插画工作.md" afterPath="$PROJECT_DIR$/_posts/2017-07-14-承接各种手绘插画工作.md" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
@@ -46,8 +38,8 @@
       <file leaf-file-name="2017-07-14-承接各种手绘插画工作.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-承接各种手绘插画工作.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
+            <state relative-caret-position="352">
+              <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -374,12 +366,12 @@
       <workItem from="1499586971125" duration="11833000" />
       <workItem from="1499668684816" duration="1243000" />
       <workItem from="1499688811160" duration="10193000" />
-      <workItem from="1499921189678" duration="22371000" />
+      <workItem from="1499921189678" duration="22498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45640000" />
+    <option name="totallyTimeSpent" value="45767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -769,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-承接各种手绘插画工作.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="100" column="7" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
+        <state relative-caret-position="352">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
           <folding />
         </state>
       </provider>
