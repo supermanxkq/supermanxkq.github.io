@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md" afterPath="$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/10/我在二环路的里边,想着你/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/10/我在二环路的里边,想着你/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search/cb-search.json" afterPath="$PROJECT_DIR$/_site/search/cb-search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +38,8 @@
       <file leaf-file-name="2017-07-14-我在二环路的里边,想着你.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -302,12 +296,12 @@
       <workItem from="1499586971125" duration="11833000" />
       <workItem from="1499668684816" duration="1243000" />
       <workItem from="1499688811160" duration="10193000" />
-      <workItem from="1499921189678" duration="17135000" />
+      <workItem from="1499921189678" duration="17188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40404000" />
+    <option name="totallyTimeSpent" value="40457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -681,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-14-我在二环路的里边,想着你.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
