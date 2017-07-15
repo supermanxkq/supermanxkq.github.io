@@ -5,36 +5,94 @@
     <description>理想永远都年轻,你让我倔强的反抗着命运……</description>
     <link>http://127.0.0.1/</link>
     <atom:link href="http://127.0.0.1/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Jul 2017 02:14:13 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 02:14:13 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Jul 2017 01:24:06 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2017 01:24:06 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
         <title>添加网易音乐播放器</title>
         <description>&lt;h1 id=&quot;添加网易音乐播放器&quot;&gt;添加网易音乐播放器&lt;/h1&gt;
 
-&lt;p&gt;网易云音乐单曲&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;iframe frameborder=&quot;no&quot;  border=&quot;0&quot;  marginwidth=&quot;0&quot;  marginheight=&quot;0&quot; width=&quot;298&quot; height=&quot;52&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=26643898&amp;amp;auto=1&amp;amp;height=32&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;blockquote&gt;
+  &lt;p&gt;如果你想在写博客的时候加上背景音乐的话,可以来看看这篇文章,这篇文章简单的讲了一下使用网易云外链播放器的方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;首先打开 &lt;a href=&quot;http://music.163.com/&quot;&gt;网易云音乐的官网&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;搜索喜欢的歌曲,然后生成外链播放器&lt;/li&gt;
+  &lt;li&gt;根据自己的喜好配置样式,复制代码即可。&lt;/li&gt;
+  &lt;li&gt;添加歌单的原理是相同的,只不过选择的是歌单,然后生成外链播放器。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;添加单曲&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;  width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;298&quot; height=&quot;52&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=26643898&amp;amp;auto=1&amp;amp;height=32&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;歌单形式&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; 
-marginheight=&quot;0&quot; width=&quot;600&quot; height=&quot;330&quot; src=&quot;http://music.
-163.com/outchain/player?
-type=0&amp;amp;id=572758458&amp;amp;auto=1&amp;amp;height=430&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;h5 id=&quot;三十岁的女人-赵雷&quot;&gt;三十岁的女人-赵雷&lt;/h5&gt;
+
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&quot;smooth-criminal---michael-jackson&quot;&gt;Smooth Criminal - Michael Jackson&lt;/h5&gt;
+
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1697617&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;添加歌单&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;600&quot; height=&quot;330&quot; src=&quot;http://music.
-163.com/outchain/player?
-type=0&amp;amp;id=572758458&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/iframe&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/iframe&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;备注:可能会出现将代码提交上去了,然后还是没有显示出来效果&lt;br /&gt;
+仔细看一下外链播放器的代码,发现width和height这两个属性的值没有加双引号,加上就好了。&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
         <link>http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</link>
         <guid isPermaLink="true">http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</guid>
         
         <category>前端开发</category>
+        
+        <category>网易云音乐</category>
+        
+        <category>音乐</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>我在二环路的里边,想着你</title>
+        <description>&lt;h1 id=&quot;我在二环路的里边想着你&quot;&gt;我在二环路的里边,想着你&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;春风十里&lt;br /&gt;
+&lt;img src=&quot;https://supermanxkq.github.io/img/flower.jpeg&quot; alt=&quot;花&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;花里的小猫&lt;br /&gt;
+&lt;img src=&quot;https://supermanxkq.github.io/img/cat.jpeg&quot; alt=&quot;花&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;奇怪的人&lt;br /&gt;
+&lt;img src=&quot;https://supermanxkq.github.io/img/people.jpeg&quot; alt=&quot;花&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
+        <link>http://127.0.0.1/2017/07/10/%E6%88%91%E5%9C%A8%E4%BA%8C%E7%8E%AF%E8%B7%AF%E7%9A%84%E9%87%8C%E8%BE%B9,%E6%83%B3%E7%9D%80%E4%BD%A0/</link>
+        <guid isPermaLink="true">http://127.0.0.1/2017/07/10/%E6%88%91%E5%9C%A8%E4%BA%8C%E7%8E%AF%E8%B7%AF%E7%9A%84%E9%87%8C%E8%BE%B9,%E6%83%B3%E7%9D%80%E4%BD%A0/</guid>
+        
+        <category>艺术</category>
+        
+        <category>文艺</category>
+        
+        <category>插画</category>
         
         
       </item>
@@ -82,92 +140,95 @@ type=0&amp;amp;id=572758458&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/ifra
   &lt;li&gt;
     &lt;p&gt;标题1-6级&lt;/p&gt;
 
-    &lt;h5 id=&quot;五级标题五级标题&quot;&gt;五级标题&lt;code&gt;#####五级标题&lt;/code&gt;&lt;/h5&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;#####五级标题&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;块注释&lt;/p&gt;
 
     &lt;blockquote&gt;
-      &lt;p&gt;块注释 &lt;code&gt;&amp;gt;块注释&lt;/code&gt;&lt;/p&gt;
+      &lt;p&gt;&amp;gt; 块注释&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;斜体&lt;/p&gt;
 
-    &lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;code&gt;*斜体*或_斜体_&lt;/code&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;*斜体*或_斜体_&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;粗体&lt;/p&gt;
 
-    &lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;code&gt;**粗体**或__粗体__&lt;/code&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;**粗体**或__粗体__&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;下划线&lt;/p&gt;
 
-    &lt;p&gt;&lt;u&gt;下划线&lt;/u&gt;&lt;code&gt;&amp;lt;u&amp;gt;下划线&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&amp;lt;u&amp;gt;下划线&amp;lt;/u&amp;gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;无序列表&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;无序列表1&lt;code&gt;* 无序列表1&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;无序列表2&lt;code&gt;- 无序列表2&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;无序列表3&lt;code&gt;+无序列表3&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;* 无序列表1&lt;/p&gt;
+
+      &lt;p&gt;- 无序列表2&lt;/p&gt;
+
+      &lt;p&gt;+ 无序列表3&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;有序列表&lt;/p&gt;
 
-    &lt;ol&gt;
-      &lt;li&gt;这是第一个 &lt;code&gt;1. 这是第一个&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;这是第二个&lt;code&gt;2. 这是第二个&lt;/code&gt;&lt;/li&gt;
-    &lt;/ol&gt;
+    &lt;blockquote&gt;
+      &lt;ol&gt;
+        &lt;li&gt;这是第一个&lt;/li&gt;
+        &lt;li&gt;这是第二个&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;超链接&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.baidu.com/&quot;&gt;百度&lt;/a&gt;&lt;code&gt;[百度](https://www.baidu.com)&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt;&lt;code&gt;[github](https://github.com)&lt;/code&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;[百度]( https://www.baidu.com/)&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;图片&lt;code&gt;![百度一下](https://www.baidu.com/img/bd_logo1.png)&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;图片&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;https://www.baidu.com/img/bd_logo1.png&quot; alt=&quot;百度一下&quot; /&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;![百度一下](https://www.baidu.com/img/bd_logo1.png)&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;删除线&lt;/p&gt;
-
-    &lt;p&gt;&lt;del&gt;删除&lt;/del&gt;  &lt;code&gt;~~删除~~&lt;/code&gt;&lt;/p&gt;
+  &lt;li&gt;删除线
+    &lt;blockquote&gt;
+      &lt;p&gt;~~删除线~~&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;分割线数量不限制，随便输入，大于等于三个就行&lt;/p&gt;
 
-    &lt;p&gt;&lt;code&gt;****&lt;/code&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;****&lt;/p&gt;
 
-    &lt;p&gt;&lt;code&gt;---&lt;/code&gt;&lt;/p&gt;
-
-    &lt;hr /&gt;
+      &lt;p&gt;-–&lt;/p&gt;
+    &lt;/blockquote&gt;
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;表格&lt;code&gt;|标题|姓名|&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;表格&lt;/p&gt;
 
-    &lt;table&gt;
-      &lt;thead&gt;
-        &lt;tr&gt;
-          &lt;th&gt;标题&lt;/th&gt;
-          &lt;th&gt;姓名&lt;/th&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;张三&lt;/td&gt;
-          &lt;td&gt;李四&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;|标题|姓名|&lt;/p&gt;
+    &lt;/blockquote&gt;
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
@@ -196,15 +257,9 @@ type=0&amp;amp;id=572758458&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/ifra
   &lt;li&gt;
     &lt;p&gt;emoji&lt;/p&gt;
 
-    &lt;p&gt;​:smile:​ &lt;code&gt;:smail:&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;:joy:	&lt;code&gt;:joy:&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;​:+1: &lt;code&gt;:+1:&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;more emoji—&amp;gt;&lt;a href=&quot;https://github.com/guodongxiaren/README/blob/master/emoji.md&quot;&gt;emoji&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;:smail:&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -219,34 +274,72 @@ type=0&amp;amp;id=572758458&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/ifra
       </item>
     
       <item>
-        <title>如何使用jekyll</title>
-        <description>&lt;h1 id=&quot;关于博客搭建的一些记录&quot;&gt;关于博客搭建的一些记录&lt;/h1&gt;
+        <title>MacOS如何使用Jekyll</title>
+        <description>&lt;h1 id=&quot;macos博客搭建的一些记录&quot;&gt;MacOS博客搭建的一些记录&lt;/h1&gt;
+
+&lt;h5 id=&quot;使用jekyll写博客&quot;&gt;使用jekyll写博客&lt;/h5&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;安装jekyll
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code&gt;sudo gem install jekyll -v 2.5&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;使用jekyll写博客，我们只需要在项目的&lt;strong&gt;_posts&lt;/strong&gt;目录中添加形如2017-07-09-如何使用jekyll.md这样的markdown的文件即可，然后push到github上面。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jekyll.com.cn/&quot;&gt;jekyll官方学习网站地址&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;安装jekyll&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;sudo gem install jekyll -v 2.5&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;创建一个新的网站
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code&gt;jekyll new my-awesome-site&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;jekyll new my-awesome-site&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
-  &lt;li&gt;启动打开一个网站
+  &lt;li&gt;启动打开一个网站使用localhost:4000进行访问
+    &lt;blockquote&gt;
+      &lt;p&gt;cd my-awesome-site&lt;br /&gt;
+ jekyll serve&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在_posts文件夹中加入博客&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;使用typora这个软件进行编辑文章&lt;/p&gt;
+
+      &lt;p&gt;typora是一个实时的展示效果的工具&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;优化界面&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;自己编写html和css前端文件，重新设计界面&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;参考项目&lt;/p&gt;
+
     &lt;ul&gt;
-      &lt;li&gt;&lt;code&gt;cd my-awesome-site&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;jekyll serve&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://supermanxkq.github.io/&quot;&gt;梦者&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sun, 09 Jul 2017 22:37:22 +0800</pubDate>
         <link>http://127.0.0.1/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll/</link>
         <guid isPermaLink="true">http://127.0.0.1/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll/</guid>
         
-        <category>jekyll</category>
+        <category>Jekyll</category>
+        
+        <category>github Pages</category>
+        
+        <category>静态网站</category>
+        
+        <category>Mac OS</category>
         
         
       </item>

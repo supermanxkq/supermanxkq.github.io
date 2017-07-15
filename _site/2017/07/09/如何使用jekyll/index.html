@@ -9,7 +9,7 @@
     <meta name="description" content="理想永远都年轻,你让我倔强的反抗着命运……">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>如何使用jekyll - 梦者</title>
+    <title>MacOS如何使用Jekyll - 梦者</title>
 
     <link rel="canonical" href="http://127.0.0.1/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll/">
 
@@ -68,9 +68,9 @@
                     <a href="/">首页</a>
                 </li>
 
-                <!--<li>-->
-                    <!--<a href="/apps/">应用</a>-->
-                <!--</li>-->
+                <li>
+                    <a href="/pic/">插画</a>
+                </li>
 
                 <!--<li>-->
                     <!--<a href="/open/">开源</a>-->
@@ -118,10 +118,16 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
+                        <a class="tag" href="/tags/#Jekyll" title="Jekyll">Jekyll</a>
+                        
+                        <a class="tag" href="/tags/#github Pages" title="github Pages">github Pages</a>
+                        
+                        <a class="tag" href="/tags/#静态网站" title="静态网站">静态网站</a>
+                        
+                        <a class="tag" href="/tags/#Mac OS" title="Mac OS">Mac OS</a>
                         
                     </div>
-                    <h1>如何使用jekyll</h1>
+                    <h1>MacOS如何使用Jekyll</h1>
                     
                     
                     <h2 class="subheading"></h2>
@@ -139,42 +145,69 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-				<h1 id="关于博客搭建的一些记录">关于博客搭建的一些记录</h1>
+				<h1 id="macos博客搭建的一些记录">MacOS博客搭建的一些记录</h1>
+
+<h5 id="使用jekyll写博客">使用jekyll写博客</h5>
 
 <ul>
-  <li>安装jekyll
-    <ul>
-      <li><code>sudo gem install jekyll -v 2.5</code></li>
-    </ul>
+  <li>
+    <p>使用jekyll写博客，我们只需要在项目的<strong>_posts</strong>目录中添加形如2017-07-09-如何使用jekyll.md这样的markdown的文件即可，然后push到github上面。</p>
+  </li>
+  <li>
+    <p><a href="http://jekyll.com.cn/">jekyll官方学习网站地址</a></p>
+  </li>
+  <li>
+    <p>安装jekyll</p>
+
+    <blockquote>
+      <p>sudo gem install jekyll -v 2.5</p>
+    </blockquote>
   </li>
   <li>创建一个新的网站
-    <ul>
-      <li><code>jekyll new my-awesome-site</code></li>
-    </ul>
+    <blockquote>
+      <p>jekyll new my-awesome-site</p>
+    </blockquote>
   </li>
-  <li>启动打开一个网站
+  <li>启动打开一个网站使用localhost:4000进行访问
+    <blockquote>
+      <p>cd my-awesome-site<br />
+ jekyll serve</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>在_posts文件夹中加入博客</p>
+
+    <blockquote>
+      <p>使用typora这个软件进行编辑文章</p>
+
+      <p>typora是一个实时的展示效果的工具</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>优化界面</p>
+
+    <blockquote>
+      <p>自己编写html和css前端文件，重新设计界面</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>参考项目</p>
+
     <ul>
-      <li><code>cd my-awesome-site</code></li>
-      <li><code>jekyll serve</code></li>
+      <li><a href="https://supermanxkq.github.io/">梦者</a></li>
     </ul>
   </li>
 </ul>
 
 
-
                 <hr>
 
                 <!-- 畅言评论框 start -->
-                <!--PC和WAP自适应版-->
-                <div id="SOHUCS" sid="如何使用jekyll" ></div>
-                <script type="text/javascript">
-                    (function(){
-                        var appid = 'cyt6xyeKL';
-                        var conf = 'prod_143de72100dd59e98c6b76d39a2b41f6';
-                        var width = window.innerWidth || document.documentElement.clientWidth;
-                        if (width < 960) {
-                            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-
+                <!--WAP版-->
+                <div id="SOHUCS" sid="MacOS如何使用Jekyll" ></div>
+                <script id="changyan_mobile_js" charset="utf-8" type="text/javascript"
+                        src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=cys5vNeQO&conf=prod_722e32af470624f7441b46e1922e6c3c">
+                </script>
                 <!-- 畅言评论框 end -->
         </div>
     </div>

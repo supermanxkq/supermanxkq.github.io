@@ -68,9 +68,9 @@
                     <a href="/">首页</a>
                 </li>
 
-                <!--<li>-->
-                    <!--<a href="/apps/">应用</a>-->
-                <!--</li>-->
+                <li>
+                    <a href="/pic/">插画</a>
+                </li>
 
                 <!--<li>-->
                     <!--<a href="/open/">开源</a>-->
@@ -145,92 +145,95 @@
   <li>
     <p>标题1-6级</p>
 
-    <h5 id="五级标题五级标题">五级标题<code>#####五级标题</code></h5>
+    <blockquote>
+      <p>#####五级标题</p>
+    </blockquote>
   </li>
   <li>
     <p>块注释</p>
 
     <blockquote>
-      <p>块注释 <code>&gt;块注释</code></p>
+      <p>&gt; 块注释</p>
     </blockquote>
   </li>
   <li>
     <p>斜体</p>
 
-    <p><em>斜体</em><code>*斜体*或_斜体_</code></p>
+    <blockquote>
+      <p>*斜体*或_斜体_</p>
+    </blockquote>
   </li>
   <li>
     <p>粗体</p>
 
-    <p><strong>粗体</strong><code>**粗体**或__粗体__</code></p>
+    <blockquote>
+      <p>**粗体**或__粗体__</p>
+    </blockquote>
   </li>
   <li>
     <p>下划线</p>
 
-    <p><u>下划线</u><code>&lt;u&gt;下划线&lt;/u&gt;</code></p>
+    <blockquote>
+      <p>&lt;u&gt;下划线&lt;/u&gt;</p>
+    </blockquote>
   </li>
   <li>
     <p>无序列表</p>
 
-    <ul>
-      <li>无序列表1<code>* 无序列表1</code></li>
-      <li>无序列表2<code>- 无序列表2</code></li>
-      <li>无序列表3<code>+无序列表3</code></li>
-    </ul>
+    <blockquote>
+      <p>* 无序列表1</p>
+
+      <p>- 无序列表2</p>
+
+      <p>+ 无序列表3</p>
+    </blockquote>
   </li>
   <li>
     <p>有序列表</p>
 
-    <ol>
-      <li>这是第一个 <code>1. 这是第一个</code></li>
-      <li>这是第二个<code>2. 这是第二个</code></li>
-    </ol>
+    <blockquote>
+      <ol>
+        <li>这是第一个</li>
+        <li>这是第二个</li>
+      </ol>
+    </blockquote>
   </li>
   <li>
     <p>超链接</p>
 
-    <p><a href="https://www.baidu.com/">百度</a><code>[百度](https://www.baidu.com)</code></p>
-
-    <p><a href="https://github.com/">github</a><code>[github](https://github.com)</code></p>
+    <blockquote>
+      <p>[百度]( https://www.baidu.com/)</p>
+    </blockquote>
   </li>
   <li>
-    <p>图片<code>![百度一下](https://www.baidu.com/img/bd_logo1.png)</code></p>
+    <p>图片</p>
 
-    <p><img src="https://www.baidu.com/img/bd_logo1.png" alt="百度一下" /></p>
+    <blockquote>
+      <p>![百度一下](https://www.baidu.com/img/bd_logo1.png)</p>
+    </blockquote>
   </li>
-  <li>
-    <p>删除线</p>
-
-    <p><del>删除</del>  <code>~~删除~~</code></p>
+  <li>删除线
+    <blockquote>
+      <p>~~删除线~~</p>
+    </blockquote>
   </li>
   <li>
     <p>分割线数量不限制，随便输入，大于等于三个就行</p>
 
-    <p><code>****</code></p>
+    <blockquote>
+      <p>****</p>
 
-    <p><code>---</code></p>
-
-    <hr />
+      <p>-–</p>
+    </blockquote>
 
     <p>​</p>
   </li>
   <li>
-    <p>表格<code>|标题|姓名|</code></p>
+    <p>表格</p>
 
-    <table>
-      <thead>
-        <tr>
-          <th>标题</th>
-          <th>姓名</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>张三</td>
-          <td>李四</td>
-        </tr>
-      </tbody>
-    </table>
+    <blockquote>
+      <p>|标题|姓名|</p>
+    </blockquote>
 
     <p>​</p>
   </li>
@@ -259,15 +262,9 @@
   <li>
     <p>emoji</p>
 
-    <p>​:smile:​ <code>:smail:</code></p>
-
-    <p>:joy:	<code>:joy:</code></p>
-
-    <p>​:+1: <code>:+1:</code></p>
-
-    <p>more emoji—&gt;<a href="https://github.com/guodongxiaren/README/blob/master/emoji.md">emoji</a></p>
-
-    <p>​</p>
+    <blockquote>
+      <p>:smail:</p>
+    </blockquote>
   </li>
 </ol>
 
@@ -276,16 +273,11 @@
                 <hr>
 
                 <!-- 畅言评论框 start -->
-                <!--PC和WAP自适应版-->
+                <!--WAP版-->
                 <div id="SOHUCS" sid="markdown的语法整理" ></div>
-                <script type="text/javascript">
-                    (function(){
-                        var appid = 'cyt6xyeKL';
-                        var conf = 'prod_143de72100dd59e98c6b76d39a2b41f6';
-                        var width = window.innerWidth || document.documentElement.clientWidth;
-                        if (width < 960) {
-                            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-
+                <script id="changyan_mobile_js" charset="utf-8" type="text/javascript"
+                        src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=cys5vNeQO&conf=prod_722e32af470624f7441b46e1922e6c3c">
+                </script>
                 <!-- 畅言评论框 end -->
         </div>
     </div>

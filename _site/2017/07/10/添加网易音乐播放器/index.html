@@ -68,9 +68,9 @@
                     <a href="/">首页</a>
                 </li>
 
-                <!--<li>-->
-                    <!--<a href="/apps/">应用</a>-->
-                <!--</li>-->
+                <li>
+                    <a href="/pic/">插画</a>
+                </li>
 
                 <!--<li>-->
                     <!--<a href="/open/">开源</a>-->
@@ -120,6 +120,10 @@
                         
                         <a class="tag" href="/tags/#前端开发" title="前端开发">前端开发</a>
                         
+                        <a class="tag" href="/tags/#网易云音乐" title="网易云音乐">网易云音乐</a>
+                        
+                        <a class="tag" href="/tags/#音乐" title="音乐">音乐</a>
+                        
                     </div>
                     <h1>添加网易音乐播放器</h1>
                     
@@ -141,37 +145,55 @@
 
 				<h1 id="添加网易音乐播放器">添加网易音乐播放器</h1>
 
-<p>网易云音乐单曲</p>
-<pre><code>&lt;iframe frameborder="no"  border="0"  marginwidth="0"  marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&amp;id=26643898&amp;auto=1&amp;height=32"&gt;&lt;/iframe&gt;
+<blockquote>
+  <p>如果你想在写博客的时候加上背景音乐的话,可以来看看这篇文章,这篇文章简单的讲了一下使用网易云外链播放器的方法。</p>
+</blockquote>
+
+<ul>
+  <li>首先打开 <a href="http://music.163.com/">网易云音乐的官网</a></li>
+  <li>搜索喜欢的歌曲,然后生成外链播放器</li>
+  <li>根据自己的喜好配置样式,复制代码即可。</li>
+  <li>添加歌单的原理是相同的,只不过选择的是歌单,然后生成外链播放器。</li>
+</ul>
+
+<blockquote>
+  <p>添加单曲</p>
+</blockquote>
+
+<pre><code class="language-html">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0"  width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=29567191&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;
 </code></pre>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&amp;id=26643898&amp;auto=1&amp;height=32"></iframe>
 
-<p>歌单形式</p>
-<pre><code>&lt;iframe frameborder="no" border="0" marginwidth="0" 
-marginheight="0" width="600" height="330" src="http://music.
-163.com/outchain/player?
-type=0&amp;id=572758458&amp;auto=1&amp;height=430"&gt;&lt;/iframe&gt;
+<h5 id="三十岁的女人-赵雷">三十岁的女人-赵雷</h5>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=29567191&amp;auto=0&amp;height=66"></iframe>
+
+<h5 id="smooth-criminal---michael-jackson">Smooth Criminal - Michael Jackson</h5>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1697617&amp;auto=0&amp;height=66"></iframe>
+
+<blockquote>
+  <p>添加歌单</p>
+</blockquote>
+
+<pre><code class="language-html">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=0&amp;id=159689015&amp;auto=0&amp;height=430"&gt;&lt;/iframe&gt;
 </code></pre>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="600" height="330" src="http://music.
-163.com/outchain/player?
-type=0&amp;id=572758458&amp;auto=0&amp;height=430"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=0&amp;id=159689015&amp;auto=0&amp;height=430"></iframe>
 
+<blockquote>
+  <p>备注:可能会出现将代码提交上去了,然后还是没有显示出来效果<br />
+仔细看一下外链播放器的代码,发现width和height这两个属性的值没有加双引号,加上就好了。</p>
+</blockquote>
 
 
                 <hr>
 
                 <!-- 畅言评论框 start -->
-                <!--PC和WAP自适应版-->
+                <!--WAP版-->
                 <div id="SOHUCS" sid="添加网易音乐播放器" ></div>
-                <script type="text/javascript">
-                    (function(){
-                        var appid = 'cyt6xyeKL';
-                        var conf = 'prod_143de72100dd59e98c6b76d39a2b41f6';
-                        var width = window.innerWidth || document.documentElement.clientWidth;
-                        if (width < 960) {
-                            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-
+                <script id="changyan_mobile_js" charset="utf-8" type="text/javascript"
+                        src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=cys5vNeQO&conf=prod_722e32af470624f7441b46e1922e6c3c">
+                </script>
                 <!-- 畅言评论框 end -->
         </div>
     </div>
