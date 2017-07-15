@@ -5,8 +5,8 @@
     <description>理想永远都年轻,你让我倔强的反抗着命运……</description>
     <link>http://127.0.0.1/</link>
     <atom:link href="http://127.0.0.1/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Jul 2017 14:29:40 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Jul 2017 14:29:40 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Jul 2017 14:31:30 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2017 14:31:30 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
@@ -87,7 +87,9 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://supermanxkq.github.io/img/cat.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;https://supermanxkq.github.io/img/cat.jpeg&quot; style=&quot;zoom:50%&quot; /&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
