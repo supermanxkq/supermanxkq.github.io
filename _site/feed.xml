@@ -5,70 +5,13 @@
     <description>理想永远都年轻,你让我倔强的反抗着命运……</description>
     <link>http://127.0.0.1/</link>
     <atom:link href="http://127.0.0.1/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Jul 2017 15:32:43 +0800</pubDate>
-    <lastBuildDate>Sat, 15 Jul 2017 15:32:43 +0800</lastBuildDate>
+    <pubDate>Sat, 15 Jul 2017 16:43:27 +0800</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2017 16:43:27 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
     
       <item>
-        <title>添加网易音乐播放器</title>
-        <description>&lt;h1 id=&quot;添加网易音乐播放器&quot;&gt;添加网易音乐播放器&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;如果你想在写博客的时候加上背景音乐的话,可以来看看这篇文章,这篇文章简单的讲了一下使用网易云外链播放器的方法。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;首先打开 &lt;a href=&quot;http://music.163.com/&quot;&gt;网易云音乐的官网&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;搜索喜欢的歌曲,然后生成外链播放器&lt;/li&gt;
-  &lt;li&gt;根据自己的喜好配置样式,复制代码即可。&lt;/li&gt;
-  &lt;li&gt;添加歌单的原理是相同的,只不过选择的是歌单,然后生成外链播放器。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;添加单曲&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;  width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&quot;三十岁的女人-赵雷&quot;&gt;三十岁的女人-赵雷&lt;/h5&gt;
-
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
-
-&lt;h5 id=&quot;smooth-criminal---michael-jackson&quot;&gt;Smooth Criminal - Michael Jackson&lt;/h5&gt;
-
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1697617&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;添加歌单&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;备注:可能会出现将代码提交上去了,然后还是没有显示出来效果&lt;br /&gt;
-仔细看一下外链播放器的代码,发现width和height这两个属性的值没有加双引号,加上就好了。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
-        <link>http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</link>
-        <guid isPermaLink="true">http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</guid>
-        
-        <category>前端开发</category>
-        
-        <category>网易云音乐</category>
-        
-        <category>音乐</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>插画</title>
-        <description>&lt;h1 id=&quot;插画&quot;&gt;插画&lt;/h1&gt;
+        <title>承接各种手绘插画工作</title>
+        <description>&lt;h1 id=&quot;承接各种手绘插画工作&quot;&gt;承接各种手绘插画工作&lt;/h1&gt;
 
 &lt;p&gt;插画在中国被人们俗称为插图。今天通行于国外市场的商业插画包括出版物配图、卡通吉祥物、影视海报、游戏人物设定及游戏内置的美术场景设计、广告、漫画、绘本、贺卡、挂历、装饰画、包装等多种形式。延伸到现在的网络及手机平台上的虚拟物品及相关视觉应用等。&lt;/p&gt;
 
@@ -143,27 +86,82 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;作者简介&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;姓名:同步练习册&lt;/li&gt;
-  &lt;li&gt;性别:女&lt;/li&gt;
-  &lt;li&gt;地点:北京&lt;/li&gt;
   &lt;li&gt;承接各种手绘插画工作&lt;/li&gt;
   &lt;li&gt;微信号: hanxue5926&lt;br /&gt;
 &lt;img src=&quot;https://supermanxkq.github.io/img/code.jpeg&quot; class=&quot;img-thumbnail&quot; style=&quot;zoom:50%&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;298&quot; height=&quot;52&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=436514312&amp;amp;auto=1&amp;amp;height=32&quot;&gt;&lt;/iframe&gt;
+&lt;iframe frameborder=&quot;no&quot; style=&quot;display:none;&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;298&quot; height=&quot;52&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=436514312&amp;amp;auto=1&amp;amp;height=32&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
-        <link>http://127.0.0.1/2017/07/10/%E6%88%91%E5%9C%A8%E4%BA%8C%E7%8E%AF%E8%B7%AF%E7%9A%84%E9%87%8C%E8%BE%B9,%E6%83%B3%E7%9D%80%E4%BD%A0/</link>
-        <guid isPermaLink="true">http://127.0.0.1/2017/07/10/%E6%88%91%E5%9C%A8%E4%BA%8C%E7%8E%AF%E8%B7%AF%E7%9A%84%E9%87%8C%E8%BE%B9,%E6%83%B3%E7%9D%80%E4%BD%A0/</guid>
+        <pubDate>Fri, 14 Jul 2017 08:49:36 +0800</pubDate>
+        <link>http://127.0.0.1/2017/07/14/%E6%89%BF%E6%8E%A5%E5%90%84%E7%A7%8D%E6%89%8B%E7%BB%98%E6%8F%92%E7%94%BB%E5%B7%A5%E4%BD%9C/</link>
+        <guid isPermaLink="true">http://127.0.0.1/2017/07/14/%E6%89%BF%E6%8E%A5%E5%90%84%E7%A7%8D%E6%89%8B%E7%BB%98%E6%8F%92%E7%94%BB%E5%B7%A5%E4%BD%9C/</guid>
         
         <category>艺术</category>
         
         <category>文艺</category>
         
         <category>插画</category>
+        
+        <category>广告</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>添加网易音乐播放器</title>
+        <description>&lt;h1 id=&quot;添加网易音乐播放器&quot;&gt;添加网易音乐播放器&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果你想在写博客的时候加上背景音乐的话,可以来看看这篇文章,这篇文章简单的讲了一下使用网易云外链播放器的方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;首先打开 &lt;a href=&quot;http://music.163.com/&quot;&gt;网易云音乐的官网&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;搜索喜欢的歌曲,然后生成外链播放器&lt;/li&gt;
+  &lt;li&gt;根据自己的喜好配置样式,复制代码即可。&lt;/li&gt;
+  &lt;li&gt;添加歌单的原理是相同的,只不过选择的是歌单,然后生成外链播放器。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;添加单曲&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;  width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&quot;三十岁的女人-赵雷&quot;&gt;三十岁的女人-赵雷&lt;/h5&gt;
+
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=29567191&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&quot;smooth-criminal---michael-jackson&quot;&gt;Smooth Criminal - Michael Jackson&lt;/h5&gt;
+
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1697617&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;添加歌单&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;450&quot; src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=159689015&amp;amp;auto=0&amp;amp;height=430&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;备注:可能会出现将代码提交上去了,然后还是没有显示出来效果&lt;br /&gt;
+仔细看一下外链播放器的代码,发现width和height这两个属性的值没有加双引号,加上就好了。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 10 Jul 2017 08:49:36 +0800</pubDate>
+        <link>http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</link>
+        <guid isPermaLink="true">http://127.0.0.1/2017/07/10/%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</guid>
+        
+        <category>前端开发</category>
+        
+        <category>网易云音乐</category>
+        
+        <category>音乐</category>
         
         
       </item>
