@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-17-电影资源分享.md" afterPath="$PROJECT_DIR$/_posts/2017-07-17-电影资源分享.md" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="2017-07-17-电影资源分享.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-电影资源分享.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="346">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -353,12 +354,12 @@
       <workItem from="1499921189678" duration="25264000" />
       <workItem from="1500270871521" duration="26000" />
       <workItem from="1500301261288" duration="830000" />
-      <workItem from="1500303816842" duration="1618000" />
+      <workItem from="1500303816842" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51007000" />
+    <option name="totallyTimeSpent" value="51585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -683,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-电影资源分享.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="346">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding />
         </state>
       </provider>
