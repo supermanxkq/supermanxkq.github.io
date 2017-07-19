@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-19-工作之余的赚钱方式.md" afterPath="$PROJECT_DIR$/_posts/2017-07-19-工作之余的赚钱方式.md" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
@@ -379,12 +380,12 @@
       <workItem from="1500303816842" duration="2719000" />
       <workItem from="1500349619398" duration="8555000" />
       <workItem from="1500444571350" duration="2114000" />
-      <workItem from="1500457839339" duration="2994000" />
+      <workItem from="1500457839339" duration="3045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65771000" />
+    <option name="totallyTimeSpent" value="65822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
