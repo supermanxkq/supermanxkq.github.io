@@ -5,9 +5,48 @@
     <description>理想永远都年轻,你让我倔强的反抗着命运……</description>
     <link>http://127.0.0.1/</link>
     <atom:link href="http://127.0.0.1/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Jul 2017 23:59:43 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 23:59:43 +0800</lastBuildDate>
+    <pubDate>Fri, 28 Jul 2017 19:25:09 +0800</pubDate>
+    <lastBuildDate>Fri, 28 Jul 2017 19:25:09 +0800</lastBuildDate>
     <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>List集合去重</title>
+        <description>&lt;h1 id=&quot;list集合去重&quot;&gt;List集合去重&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;总体的思路就是利用了set集合的特点,没有顺序,不包含重复的元素的特性。&lt;br /&gt;
+List集合有顺序,可以包含重复的元素。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;   @Override
+   	public List&amp;lt;ThirdpartyPort&amp;gt; findThirdpartyPorts(ThirdpartyPortFilterRequest filter) {
+   		HashSet&amp;lt;String&amp;gt; setTempList = new HashSet&amp;lt;String&amp;gt;();
+   		List&amp;lt;ThirdpartyPort&amp;gt; thirdPartPortTypeList = new ArrayList&amp;lt;&amp;gt;();
+   		List&amp;lt;ThirdpartyPort&amp;gt; thirdPartPortList = new Executor(thirdpartyportRepos).findAll(filter);
+   		if (CollectionUtils.isEmpty(thirdPartPortList)) {
+   			throw new ParameterException();
+   		}
+   		for (ThirdpartyPort thirdPartyPort : thirdPartPortList) {
+   			if (setTempList.contains(thirdPartyPort.getPortType())) {
+   				continue;
+   			}
+   			setTempList.add(thirdPartyPort.getPortType());
+   			thirdPartPortTypeList.add(thirdPartyPort);
+   		}
+   		return thirdPartPortTypeList;
+   	}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate>
+        <link>http://127.0.0.1/2017/07/27/List%E9%9B%86%E5%90%88%E5%8E%BB%E9%87%8D/</link>
+        <guid isPermaLink="true">http://127.0.0.1/2017/07/27/List%E9%9B%86%E5%90%88%E5%8E%BB%E9%87%8D/</guid>
+        
+        <category>List集合去重</category>
+        
+        <category>Java</category>
+        
+        
+      </item>
     
       <item>
         <title>谈一下工作态度</title>
@@ -41,7 +80,7 @@
   &lt;li&gt;
     &lt;p&gt;态度决定高度，态度成就完美&lt;/p&gt;
 
-    &lt;p&gt;很多的时候，我觉得自己和别人并没有什么差别，我觉得别人能做的事情，我也能做，比人不会做的事情我也有可能会做出来，但是我就是不如一些人，有很多的时候就是这种感觉，我也不明白是为什么，究其原因，就是人家做事下的功夫比我多，比我负责人，比我认真，有时候吧，就觉得一个有态度的人给人的感觉是不一样的，那种感觉就是我一定要把自己的事情做好，也考虑的事情比较多，不会给别人带来更多的麻烦，很多时候，同事给我提出来的问题，说我哪里写的不对，我都会面红耳赤，感觉特别的尴尬，原因就是因为自己偷懒了。所以态度好了，对细节就会更加的关注，对质量要求会变得更高，因为有了更高的态度，所以了解的东西也就会越深，知道的也就会越来越多，人和人的差距也就慢慢的拉开了。&lt;/p&gt;
+    &lt;p&gt;很多的时候，我觉得自己和别人并没有什么差别，我觉得别人能做的事情，我也能做，比人不会做的事情我也有可能会做出来，但是我就是不如一些人，有很多的时候就是这种感觉，我也不明白是为什么，究其原因，就是人家做事下的功夫比我多，比我负责，比我认真.gt有时候吧，就觉得一个有态度的人给人的感觉是不一样的，那种感觉就是我一定要把自己的事情做好，也考虑的事情比较多，不会给别人带来更多的麻烦，很多时候，同事给我提出来的问题，说我哪里写的不对，我都会面红耳赤，感觉特别的尴尬，原因就是因为自己偷懒了。所以态度好了，对细节就会更加的关注，对质量要求会变得更高，因为有了更高的态度，所以了解的东西也就会越深，知道的也就会越来越多，人和人的差距也就慢慢的拉开了。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;漂亮的事情需要态度&lt;/p&gt;
@@ -661,6 +700,81 @@
         <category>静态网站</category>
         
         <category>Mac OS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Android开发及使用技巧</title>
+        <description>&lt;h3 id=&quot;1-查看wifi密码&quot;&gt;1. 查看wifi密码&lt;/h3&gt;
+
+&lt;p&gt;查询连接的wifi密码，没问题，前提是手机已经root了，可以查看系统文件，android的wifi密码明文保存在一下文件中，使用root explorer查看即可。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/data/misc/wifi/wpa_supplicant.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;2-查看activity堆栈情况&quot;&gt;2. 查看activity堆栈情况&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;adb shell dumpsys activity ---------------查看ActvityManagerService 所有信息
+adb shell dumpsys activity activities ----------查看Activity组件信息
+adb shell dumpsys activity services -----------查看Service组件信息
+adb shell dumpsys activity providers ----------产看ContentProvider组件信息
+adb shell dumpsys activity broadcasts --------查看BraodcastReceiver信息
+adb shell dumpsys activity intents --------------查看Intent信息
+adb shell dumpsys activity processes ---------查看进程信息
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;3-查看apk中的androidmanifestxml文件&quot;&gt;3. 查看apk中的AndroidManifest.xml文件&lt;/h3&gt;
+
+&lt;p&gt;可以使用apktool对apk进行反编译，不过现在很多的apk都进行了加固，可以防止apktool进行反编译，我们可以使用google提供的aapt(Android Asset Packaging Tool)进行查看:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;aapt dump xmltree target.apk AndroidManifest.xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;其中target.apk为需要查看AndroidManifest.xml的apk包。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;4-查看android的log&quot;&gt;4. 查看android的log&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;adb logcat
+
+&quot;-s&quot;选项 : 设置输出日志的标签, 只显示该标签的日志;
+
+&quot;-f&quot;选项 : 将日志输出到文件, 默认输出到标准输出流中, -f 参数执行不成功;
+
+&quot;-r&quot;选项 : 按照每千字节输出日志, 需要 -f 参数, 不过这个命令没有执行成功;
+
+&quot;-n&quot;选项 : 设置日志输出的最大数目, 需要 -r 参数, 这个执行 感觉 跟 adb logcat 效果一样;
+
+&quot;-v&quot;选项 : 设置日志的输出格式, 注意只能设置一项;
+
+&quot;-c&quot;选项 : 清空所有的日志缓存信息;
+
+&quot;-d&quot;选项 : 将缓存的日志输出到屏幕上, 并且不会阻塞;
+
+&quot;-t&quot;选项 : 输出最近的几行日志, 输出完退出, 不阻塞;
+
+&quot;-g&quot;选项 : 查看日志缓冲区信息;
+
+&quot;-b&quot;选项 : 加载一个日志缓冲区, 默认是 main, 下面详解;
+
+&quot;-B&quot;选项 : 以二进制形式输出日志;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;持续更新…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如有任何知识产权、版权问题或理论错误，还请指正。&lt;/p&gt;
+
+  &lt;p&gt;转载请注明原作者及以上信息。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 28 Jul 2015 00:00:00 +0800</pubDate>
+        <link>http://127.0.0.1/2015/07/28/android-trick/</link>
+        <guid isPermaLink="true">http://127.0.0.1/2015/07/28/android-trick/</guid>
+        
+        <category>android</category>
         
         
       </item>

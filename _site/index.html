@@ -77,6 +77,9 @@
                 </li>
 -->
                 <li>
+                    <a href="/picture/">相册</a>
+                </li>
+                <li>
                     <a href="/tags/">标签</a>
                 </li>
 
@@ -131,6 +134,29 @@
     	<div class="row">
     		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
     			
+<div class="post-preview">
+    <a href="/2017/07/27/List%E9%9B%86%E5%90%88%E5%8E%BB%E9%87%8D/">
+        <h2 class="post-title">            List集合去重
+        </h2>
+        
+        <div class="post-content-preview">
+            List集合去重
+
+
+  总体的思路就是利用了set集合的特点,没有顺序,不包含重复的元素的特性。
+List集合有顺序,可以包含重复的元素。
+
+
+   @Override
+   	public List&lt;ThirdpartyPort&gt; findThirdpartyPorts(ThirdpartyPortFilterRequest filter) {
+   		HashSet&lt...
+        </div>
+    </a>
+    <p class="post-meta">Posted by 梦者 on July 27, 2017</p>
+        
+</div>
+<hr>
+
 <div class="post-preview">
     <a href="/2017/07/24/%E8%B0%88%E5%B7%A5%E4%BD%9C%E6%80%81%E5%BA%A6/">
         <h2 class="post-title">            谈一下工作态度
@@ -389,8 +415,176 @@
 </div>
 <hr>
 
+<div class="post-preview">
+    <a href="/2015/07/28/android-trick/">
+        <h2 class="post-title">            Android开发及使用技巧
+        </h2>
+        
+        <div class="post-content-preview">
+            1. 查看wifi密码
+
+查询连接的wifi密码，没问题，前提是手机已经root了，可以查看系统文件，android的wifi密码明文保存在一下文件中，使用root explorer查看即可。
+
+/data/misc/wifi/wpa_supplicant.conf
+
+
+2. 查看activity堆栈情况
+
+adb shell dumpsys activity ---------------...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 28, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/07/20/get-max-from-every-group/">
+        <h2 class="post-title">            获取所有分组中某列最大的行
+        </h2>
+        
+        <div class="post-content-preview">
+            怎么获取所有分组中某列最大的行？下面用一个例子来说明下：
+
+一共公司有若干员工，每个员工有各自的id, group_id(部门), salary(工资).现在的问题转变为
+
+求公司各部门最高工资的员工
+
+
+首先明确一个问题，一个部门的若干个员工可能同时拥有最高的工资，需要都列举出来。
+
+看一下员工的数据库表结构(只包含有用的列):
+
+
+  
+    
+      Field
+      Ty...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 20, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/07/17/android-webview-optimize/">
+        <h2 class="post-title">            Android WebView页面加载优化
+        </h2>
+        
+        <div class="post-content-preview">
+            目前webapp越来越多，体验也越来越好，为了能够更好的使用WebView展示出流畅的的页面，可以从以下几点做优化：
+
+
+  WebView缓存
+  资源文件本地存储
+  减少耗时操作
+  客户端UI优化
+
+
+可能有人会说了，为什么不做成native的呢，这样就不用那么的麻烦了。如果我需要加载的内容都是静态的，当然做成native的是最好的，为什么我们要使用WebView呢，因为它可以加载一...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 17, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/07/11/jekyll-search/">
+        <h2 class="post-title">            给jekyll添加炫酷简洁的搜索
+        </h2>
+        
+        <div class="post-content-preview">
+            试试双击Ctrl键看看，或者点击右下角搜索图标
+
+博客从wordpress的jekyll，jekyll的核心思想:
+
+将纯文本转化为静态网站和博客
+
+
+jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 11, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/07/10/java-operate/">
+        <h2 class="post-title">            a+=b 等价于 a=a+b ?
+        </h2>
+        
+        <div class="post-content-preview">
+            a += b和a = a + b完全等价么(java)？可能很多人以为是一样的，其实并非等价的，下面看一下证据吧。
+
+public class Test {
+    public static void main(String[] args) {
+        int a = 0;
+        float c = 2.0f;
+        a += c;
+        a = a ...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 10, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/07/02/image-gray/">
+        <h2 class="post-title">            图片灰度化
+        </h2>
+        
+        <div class="post-content-preview">
+            怎么将图片灰度化，看到一个黑白滤镜的实现，黑白滤镜原理十分简单,是根据各种颜色在人眼中的亮度响应将rgb三通道的像素转换成单通道的灰度像素.而对于彩色转灰度,有一个很著名的心理学公式:
+
+Gray = R*0.299 + G*0.587 + B*0.114 
+
+
+下面看一下具体怎么使用，怎么讲一张彩色照片转变为黑白照片。看一段java代码:
+
+package me.codeboy.lyd.i...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on July 2, 2015</p>
+        
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2015/06/28/android-unleak-hander/">
+        <h2 class="post-title">            Android Handler如何避免内存泄露
+        </h2>
+        
+        <div class="post-content-preview">
+            在使用Android Handler的时候，可能会遇到编译器给我们这样的警告:
+
+This Handler class should be static or leaks might occur
+
+
+造成这个警告的原因是handler持有外层类(Activity等)的引用,同时消息队列中的Message对handler也持有引用，这样就造成一些资源不能回，从而可能造成内存泄露。
+
+解决这个警...
+        </div>
+    </a>
+    <p class="post-meta">Posted by Codeboy on June 28, 2015</p>
+        
+</div>
+<hr>
+
 
 <!-- Pager -->
+
+<ul class="pager">
+    
+    
+    <li class="next">
+        <a href="/page/2">Older Posts &rarr;</a>
+    </li>
+    
+</ul>
 
 
     		</div>
@@ -434,7 +628,6 @@
 
 <!-- jQuery -->
 <script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 

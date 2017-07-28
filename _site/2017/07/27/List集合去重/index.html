@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword"  content="">
+    <meta name="description" content="理想永远都年轻,你让我倔强的反抗着命运……">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>List集合去重 - 梦者</title>
+
+    <link rel="canonical" href="http://127.0.0.1/2017/07/27/List%E9%9B%86%E5%90%88%E5%8E%BB%E9%87%8D/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/codeboy.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+<link rel="alternate" type="application/rss+xml"
+  href="feed.xml" title="小胖轩">
+    <!-- Custom Fonts -->
+    <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+	.ds-powered-by {
+		display:none !important ;
+	}
+	.ds-post-toolbar .ds-sync{
+		display:none !important ;
+	}
+    </style>
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">梦者</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+
+               <!-- <li>
+                    <a href="/apps/">插画</a>
+                </li>
+
+                <li>
+                    <a href="/open/">开源</a>
+                </li>
+-->
+                <li>
+                    <a href="/picture/">相册</a>
+                </li>
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+		<!--
+                
+                <li>
+                    <a href="/apps/">Apps</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于我</a>
+                </li>
+                
+                <li>
+                    <a href="/open/">Open</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+		-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/post-bg-web.jpg')" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#List集合去重" title="List集合去重">List集合去重</a>
+                        
+                        <a class="tag" href="/tags/#Java" title="Java">Java</a>
+                        
+                    </div>
+                    <h1>List集合去重</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 梦者 on July 27, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container" style="overflow-y:hidden;">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+				<h1 id="list集合去重">List集合去重</h1>
+
+<blockquote>
+  <p>总体的思路就是利用了set集合的特点,没有顺序,不包含重复的元素的特性。<br />
+List集合有顺序,可以包含重复的元素。</p>
+</blockquote>
+
+<pre><code class="language-java">   @Override
+   	public List&lt;ThirdpartyPort&gt; findThirdpartyPorts(ThirdpartyPortFilterRequest filter) {
+   		HashSet&lt;String&gt; setTempList = new HashSet&lt;String&gt;();
+   		List&lt;ThirdpartyPort&gt; thirdPartPortTypeList = new ArrayList&lt;&gt;();
+   		List&lt;ThirdpartyPort&gt; thirdPartPortList = new Executor(thirdpartyportRepos).findAll(filter);
+   		if (CollectionUtils.isEmpty(thirdPartPortList)) {
+   			throw new ParameterException();
+   		}
+   		for (ThirdpartyPort thirdPartyPort : thirdPartPortList) {
+   			if (setTempList.contains(thirdPartyPort.getPortType())) {
+   				continue;
+   			}
+   			setTempList.add(thirdPartyPort.getPortType());
+   			thirdPartPortTypeList.add(thirdPartyPort);
+   		}
+   		return thirdPartPortTypeList;
+   	}
+</code></pre>
+
+
+                <hr>
+                <!-- 代码1：放在页面需要展示的位置  -->
+                <!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+                <div id="cyEmoji" role="cylabs" data-use="emoji"></div>
+                <div id="cyReward" role="cylabs" data-use="reward" style="text-align:center;"></div>
+                <img src="http://supermanxkq.github.io/img/pay_free.jpeg" width="200px" height="200px"/>
+                <!-- 畅言评论框 start -->
+                <!--WAP版-->
+                <div id="SOHUCS" sid="List集合去重" ></div>
+                <script id="changyan_mobile_js" charset="utf-8" type="text/javascript"
+                        src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=cys5vNeQO&conf=prod_722e32af470624f7441b46e1922e6c3c">
+                </script>
+                <!-- 畅言评论框 end -->
+                <!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+                <!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+                <!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+                <script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+                <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cys5vNeQO"></script>
+                <script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+                <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cys5vNeQO"></script>
+            </div>
+    </div>
+</article>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!--<li>-->
+                        <!--<a href="/feed.xml">-->
+                            <!--<span class="fa-stack fa-lg">-->
+                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                <!--<i class="fa fa-rss fa-stack-1x fa-inverse"></i>-->
+                            <!--</span>-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    
+                    
+
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/supermanxkq">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; 梦者 2017</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/codeboy.min.js "></script>
+
+<!-- TODO: only load in tag.html -->
+<script src="/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script language="javascript">
+    $.fn.tagcloud.defaults = {
+        //size: {start: 1, end: 1, unit: 'em'},
+        color: {start: '#bbbbee', end: '#0085a1'},
+    };
+    $(function () {
+        $('#tag_cloud a').tagcloud();
+    });
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- Highlight.js -->
+<script>
+    async("//cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="//cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
+
+<div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
+      opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+    <input type="text" class="form-control cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="文章标题 日期 标签" >
+
+    <div style="position: fixed; top: 16px; right: 16px;">
+        <img src="/search/img/cb-close.png"  id="cb-close-btn"/>
+    </div>
+</div>
+
+<div style="position: fixed; right: 16px; bottom: 20px;">
+    <img src="/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
+</div>
+
+<link rel="stylesheet" href="/search/css/cb-search.css">
+
+<script src="/search/js/bootstrap3-typeahead.min.js"></script>
+<script src="/search/js/cb-search.js"></script>
+
+<div style="display:none;">
+  <script src="//s19.cnzz.com/z_stat.php?id=1000478693&web_id=1000478693" language="JavaScript"></script>	
+</div>
+
+
+</body>
+
+</html>

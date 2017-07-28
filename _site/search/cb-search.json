@@ -3,6 +3,14 @@
 	"data" : [
 	 
 	{
+		"title" : "List集合去重 - List集合去重_Java",
+		"url" : "/2017/07/27/List%E9%9B%86%E5%90%88%E5%8E%BB%E9%87%8D/"
+	}
+	
+	,
+	
+    
+	{
 		"title" : "谈一下工作态度 - 工作态度_生活感悟_随笔",
 		"url" : "/2017/07/24/%E8%B0%88%E5%B7%A5%E4%BD%9C%E6%80%81%E5%BA%A6/"
 	}
@@ -61,6 +69,126 @@
 	{
 		"title" : "MacOS如何使用Jekyll - Jekyll_github Pages_静态网站_Mac OS",
 		"url" : "/2017/07/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8jekyll/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android开发及使用技巧 - android",
+		"url" : "/2015/07/28/android-trick/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "获取所有分组中某列最大的行 - database",
+		"url" : "/2015/07/20/get-max-from-every-group/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android WebView页面加载优化 - android_network",
+		"url" : "/2015/07/17/android-webview-optimize/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "给jekyll添加炫酷简洁的搜索 - web",
+		"url" : "/2015/07/11/jekyll-search/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "a+=b 等价于 a=a+b ? - java",
+		"url" : "/2015/07/10/java-operate/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "图片灰度化 - java_discover",
+		"url" : "/2015/07/02/image-gray/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android Handler如何避免内存泄露 - android",
+		"url" : "/2015/06/28/android-unleak-hander/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Context, What Context? - android",
+		"url" : "/2015/06/28/android-context/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : " Js实现旋转的图片 - web",
+		"url" : "/2015/05/08/js-rorate-image/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Android Ndk的应用 - android",
+		"url" : "/2015/05/04/android-ndk/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "HashMap的小优化 - java",
+		"url" : "/2015/04/29/java-hashmap-trick/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "配置ftp服务器只能上传不能进行其他操作 - server_web",
+		"url" : "/2015/01/06/ftp-no-download/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "ViewPager自适应高度 - android",
+		"url" : "/2014/11/26/android-viewpager/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "Apache下配置认证用户 - server",
+		"url" : "/2014/11/16/apache-user-authorized/"
+	}
+	
+	,
+	
+    
+	{
+		"title" : "不劳而获 - java",
+		"url" : "/2014/11/06/java-trick-1/"
 	}
 	
     
