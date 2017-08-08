@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/related/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/related/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/js/jquery-1.11.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/picture/js/pinterest_grid.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/09/如何使用jekyll/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/09/如何使用jekyll/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/10/markdown语法的整理/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/10/markdown语法的整理/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/10/关于破解wifi密码的傻瓜做法/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/10/关于破解wifi密码的傻瓜做法/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/10/添加网易音乐播放器/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/10/添加网易音乐播放器/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/14/承接各种手绘插画工作/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/14/承接各种手绘插画工作/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/17/电影资源分享/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/17/电影资源分享/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/19/工作之余的赚钱方式/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/19/工作之余的赚钱方式/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/07/24/谈工作态度/index.html" afterPath="$PROJECT_DIR$/_site/2017/07/24/谈工作态度/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/apps/index.html" afterPath="$PROJECT_DIR$/_site/apps/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/open/index.html" afterPath="$PROJECT_DIR$/_site/open/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search/cb-search.json" afterPath="$PROJECT_DIR$/_site/search/cb-search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +71,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/picture/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+            <state relative-caret-position="1219">
+              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -403,12 +357,12 @@
       <workItem from="1501119030044" duration="337000" />
       <workItem from="1501121004722" duration="1101000" />
       <workItem from="1501127771028" duration="680000" />
-      <workItem from="1501234677877" duration="3789000" />
+      <workItem from="1501234677877" duration="4431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76163000" />
+    <option name="totallyTimeSpent" value="76805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -783,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/picture/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        <state relative-caret-position="1219">
+          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
           <folding />
         </state>
       </provider>
