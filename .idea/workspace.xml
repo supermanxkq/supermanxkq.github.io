@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91494067-970b-4391-9431-8486bda74468" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-08-08-低价出售民谣吉他.md" afterPath="$PROJECT_DIR$/_posts/2017-08-08-低价出售民谣吉他.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/08/08/低价出售民谣吉他/index.html" afterPath="$PROJECT_DIR$/_site/2017/08/08/低价出售民谣吉他/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
     </list>
     <ignored path="supermanxkq.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +84,8 @@
       <file leaf-file-name="2017-08-08-低价出售民谣吉他.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-08-08-低价出售民谣吉他.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="98">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -395,12 +398,12 @@
       <workItem from="1501127771028" duration="680000" />
       <workItem from="1501234677877" duration="4431000" />
       <workItem from="1502182615661" duration="575000" />
-      <workItem from="1502292229473" duration="2538000" />
+      <workItem from="1502292229473" duration="2603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79918000" />
+    <option name="totallyTimeSpent" value="79983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -754,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-08-08-低价出售民谣吉他.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="98">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
