@@ -17,7 +17,7 @@ description: "找工作，招聘，租车，租房，广告。"
             {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
-    <p class="post-meta">发布于  {{ post.date | date: "%B %-d, %Y" }}  {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} </p>
+    <p class="post-meta">发布于  {{ post.date | date: "%Y-%m-%d" }}  {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} </p>
         
 </div>
 <hr>
